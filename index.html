@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>टेक्स्ट से इमेज जेनरेटर</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>टेक्स्ट से इमेज बनाएं</h1>
+        <textarea id="textInput" placeholder="यहां टेक्स्ट डालें..."></textarea>
+        <button onclick="generateImage()">इमेज जेनरेट करें</button>
+        <canvas id="canvas" style="display:none;"></canvas>
+        <div id="result">
+            <a id="downloadLink" download="text-image.png" style="display:none;">इमेज डाउनलोड करें</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
